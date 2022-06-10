@@ -10,7 +10,7 @@ function App() {
   const [location, setLocation] = useState('')
 
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=1029749435f37473e4f52bc319f991c2`
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=[APIKey]`
   
   const searchLocation = async (req, res)=>{
     try{ 
